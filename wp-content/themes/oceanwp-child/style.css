@@ -10,4 +10,35 @@ Version: 3.5.0.1697799210
 Updated: 2023-10-20 10:53:30
 
 */
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    background-color: white;
+}
+
+a {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+
+    height: 60px;
+    padding: 20px 0px 21px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    }
+    
+    a {
+        text-align: center;
+    }
+    element.style {
+        background-color: #E0B9B4;
+    }
+
+
+
+
 
