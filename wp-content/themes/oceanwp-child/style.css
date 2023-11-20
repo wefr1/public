@@ -9,36 +9,136 @@ Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custo
 Version: 3.5.0.1697799210
 Updated: 2023-10-20 10:53:30
 
-*/
-input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    background-color: white;
+
+/* Ajoutez le style de la police Syne à la balise body */
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Style pour les liens */
 a {
     color: #000;
     text-align: center;
-    font-family: Syne;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
-
     height: 60px;
     padding: 20px 0px 21px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    }
-    
-    a {
-        text-align: center;
-    }
-    element.style {
-        background-color: #E0B9B4;
-    }
+}
 
 
 
+/* Style pour les zones de texte */
+textarea.wpcf7-form-control.wpcf7-textarea,
+input.wpcf7-form-control.wpcf7-email.wpcf7-validates-as-required.wpcf7-text.wpcf7-validates-as-email,
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 383px;
+    height: 71px;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+/* Style spécifique pour la zone de texte */
+textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 237px;
+}
+
+/* Style pour les champs de formulaire */
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    background-color: white;
+    border-radius: 7px;
+
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box
+}
+
+/* Style pour le fond au survol des champs de formulaire */
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required:hover,
+textarea.wpcf7-form-control.wpcf7-textarea:hover,
+input.wpcf7-form-control.wpcf7-email.wpcf7-validates-as-required.wpcf7-text.wpcf7-validates-as-email:hover {
+    background-color: #E0B9B4;
+}
 
 
+div#informations {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#commander input {
+    background-color: white;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    width: 383px;
+height: 71px;
+flex-shrink: 0;
+}
+
+#commander label {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin-bottom: 15px;
+}
+
+li#menu-item-60 {
+    background-color:#DC9F96;
+}
+
+div#commander {
+    background-color: #3B8E46;;
+}
+form input[type=number] {
+ 
+    background-color: white;
+}
+
+.elementor-20 .elementor-element.elementor-element-208cde4:not(.elementor-motion-effects-element-type-background),
+.elementor-20 .elementor-element.elementor-element-208cde4 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-repeat: no-repeat;
+    background-position: 34% 88%;
+}
+.elementor-element.elementor-element-208cde4.e-flex.e-con-boxed.e-con.e-parent {
+    background-position: 34% 88%;
+}
+
+a.elementor-button.elementor-button-link.elementor-size-sm {
+    font-family: "Syne", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1px;
+    background-color: #E0B9B4;
+}
+.elementor-22 .elementor-element.elementor-element-69a63a0 .elementor-button {
+    height: 55px;
+    padding: 25px 57px 9px 56px;
+}
+
+a.elementor-button.elementor-button-link.elementor-size-sm {
+    height: 55px;
+    padding: 25px 57px 9px 56px;
+}
