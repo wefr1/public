@@ -120,7 +120,7 @@ form input[type=number] {
 .elementor-20 .elementor-element.elementor-element-208cde4:not(.elementor-motion-effects-element-type-background),
 .elementor-20 .elementor-element.elementor-element-208cde4 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-repeat: no-repeat;
-    background-position: 34% 88%;
+    background-position: 36% 88%;
 }
 .elementor-element.elementor-element-208cde4.e-flex.e-con-boxed.e-con.e-parent {
     background-position: 34% 88%;
@@ -142,3 +142,62 @@ a.elementor-button.elementor-button-link.elementor-size-sm {
     height: 55px;
     padding: 25px 57px 9px 56px;
 }
+
+
+
+
+
+div#site-header-inner {
+    display: unset;
+
+}
+
+.dropdown-menu, .dropdown-menu * {
+    padding: 6px!important;
+}
+#site-navigation-wrap .dropdown-menu>li {
+    float: left;
+    position: relative;
+    margin: -5px;
+    color: white;
+}
+
+
+
+
+
+
+/* Couleur de texte blanche pour le deuxième élément avec la classe text-wrap */
+.parent-element .text-wrap:nth-child(2) {
+    color: white;
+}
+
+.elementor-element.elementor-element-208cde4.e-flex.e-con-boxed.e-con.e-parent {
+    background-position: 35% 88%!important;
+}
+
+
+#site-navigation-wrap .dropdown-menu>li>a {
+    display: block;
+    line-height: 53px;
+    color: #555;
+    padding: 0 15px;
+    letter-spacing: .6px;
+}
+
+li#menu-item-60 a.menu-link {
+    color: #FFF;
+}
+
+
+
+.elementor-element.elementor-element-0125b39.e-con-full.courbelala.e-flex.e-con.e-parent {
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 10px 0 #DCD5CF ;
+}
+
+
+
+
+
+
